@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply m-0 p-0;
+}
+
+.ant-layout-sider, .ant-layout-header, .ant-layout-content {
+    @apply !bg-white;
+}
+
+.dotted-bg {
+    background: #fff;
+    background-image: radial-gradient(#d1d5db 6%, transparent 0);
+    background-size: 20px 20px;
+}
+
+.ant-skeleton-image {
+    width: 175px !important;
+    height: 175px !important;
+}
+
