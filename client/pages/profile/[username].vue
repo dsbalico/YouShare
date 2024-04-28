@@ -21,7 +21,7 @@
                                 <a-tag v-show="user?.data?.role === 'admin'" color="red">Admin</a-tag>
                             </a-typography-paragraph>
                             <a-typography-paragraph class="!mb-0 text-4xl font-semibold">
-                                {{ user?.data?.firstName || 'Unamed' }} {{ user?.data?.middleName }} {{
+                                {{ user?.data?.firstName || 'Unnamed' }} {{ user?.data?.middleName }} {{
                                     user?.data?.lastName || 'User' }}
                             </a-typography-paragraph>
                             <a-typography-paragraph class="!mb-0 text-base">
